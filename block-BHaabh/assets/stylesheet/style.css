@@ -1,0 +1,185 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+.part-1 {
+    background-color: rgb(157, 157, 247);
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+.nav-bar {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+}
+a {
+    color: white;text-decoration: none;
+}
+.navigation {
+    float: right;
+
+}
+.nav-bar h2 {
+    display: inline-block;
+}
+.heading {
+    text-align: center;
+}
+.heading h1 {
+    font-size: 44px;
+}
+.heading h3 {
+    font-size: 11px;
+}
+.part-2 {
+    background-color: white;
+    height: 300px;
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    vertical-align: top;
+    margin: 20px auto;
+}
+.box h2 {
+    font-size: 25px;
+    color: blue;
+}
+.box h3 {
+    font-size: 15px;
+    color: grey;
+}
+.more-button {
+    background-color: blue;
+    margin-top: 7%;
+}
+.part-3 {
+    background-color: rgb(157, 157, 247);
+    /* height: 450px; */
+}
+.part-3-heading {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+.part-3-heading h2 {
+    font-size: 44px;
+}
+.image-box {
+    text-align: center;
+    padding-top: 40px;
+   
+}
+.image-box img {
+    display: inline-block;
+    width: 70%;
+    /* height: 80%; */
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 10%;
+
+   
+}
+.image-profile {
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+    border: 1px solid white;
+    width: 20%;
+    margin-bottom: 5%;
+}
+.image-profile h2 {
+    font-size: 18px;
+}
+.image-profile h3 {
+    font-size: 10px;
+}
+.part-4 {
+    border-color: white;
+    margin-top: 20px;
+}
+.part-4-heading {
+    text-align: center;
+}
+.part-4-heading h2 {
+    font-size: 44px;
+    color: blue;
+}
+.part-4-heading h3 {
+    color: blue;
+}
+.part-4-image-box {
+    margin: 20px auto;
+}
+.image-brief {
+    display: inline-block;
+    width:48%;
+    padding: 10px;
+}
+.image-brief button {
+       background-color: blue;
+       color: white;
+}
+footer {
+    margin: 2%;
+}
+.footer-link {
+    float: right;
+  width: 10%;
+   
+}
+.footer-link a{
+    color: blue;
+    margin: 3%;
+}
